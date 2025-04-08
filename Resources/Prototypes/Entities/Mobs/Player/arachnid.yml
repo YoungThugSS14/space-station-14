@@ -7,7 +7,7 @@
   - type: Respirator
     damage:
       types:
-        Asphyxiation: 1.5 # This makes space and crit more lethal to arachnids.
+        Asphyxiation: 1.2 # This makes space and crit more lethal to arachnids. # HARMONY SPECIFIC CHANGE (Original 1.5)
     damageRecovery:
       types:
-        Asphyxiation: -0.5
+        Asphyxiation: -0.25 # HARMONY SPECIFIC CHANGE (Original -0.50)
