@@ -96,18 +96,6 @@
 
 - type: construction
   parent: Girder
-  id: ShuttleWall
-  targetNode: shuttleWall
-
-- type: construction
-  parent: Girder
-  id: DiagonalShuttleWall
-  name: construction-recipe-diagonal-shuttle-wall
-  targetNode: diagonalshuttleWall
-  canRotate: true
-
-- type: construction
-  parent: Girder
   id: MeatWall
   targetNode: meatWall
 
@@ -176,11 +164,6 @@
   parent: BaseWindow
   id: ReinforcedPlasmaWindow
   targetNode: reinforcedPlasmaWindow
-
-- type: construction
-  parent: BaseWindow
-  id: ShuttleWindow
-  targetNode: shuttleWindow
 
 - type: construction
   parent: BaseWindowDiagonal

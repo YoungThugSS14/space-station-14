@@ -32,9 +32,6 @@
             max: 2
   - type: IconSmooth
     base: swindow
-  - type: Construction
-    graph: Window
-    node: shuttleWindow
   - type: Appearance
   - type: DamageVisuals
     thresholds: [5, 10, 20]
